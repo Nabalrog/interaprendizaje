@@ -1,0 +1,218 @@
+body{
+margin: 0;
+}
+
+p{
+    font-family: myriad-pro, sans-serif;
+}
+
+a{
+    font-family: myriad-pro, sans-serif;
+}
+/* INICIO BARRA DE NAVEGACION  */
+
+.navegacion{
+    border: solid px black;
+    display: flex;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 10px 10px #666;
+}
+
+
+.logo{
+    border: solid px black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo img{
+    width: 80px;
+}
+
+.secciones{
+    border: solid px black;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secciones a{
+    text-decoration: none;
+    color: black;
+}
+
+.lupa{
+    border: solid px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa img{
+    width: 40px;
+}
+
+.buscador{
+    border: solid px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60px;
+}
+
+.buscador input{
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+}
+
+.iniciosesion{
+    border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    margin-left: -60px;
+}
+
+.iniciosesion a{
+    text-decoration: none;
+    color: black;
+    font-family: myriad-pro, sans-serif;
+}
+
+
+/* FIN BARRA DE NAVEGACION  */
+
+/* INICIO HEADER */
+
+header{
+    border: solid px black;
+    height: 812px;
+    background-image: url(./assets/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.recuadroinformacion{
+    border: solid 3px black;
+    width: 600px;
+    height: 450px;
+
+    margin-left: 120px;
+    box-shadow: 1px 2px 10px #666;
+    display: flex;
+
+}
+
+
+.recuadroinformacion img{
+    width: 200px;
+    border: solid px black;
+    margin-left: 200px;
+    
+
+}
+
+.recuadroinformacion p{
+    text-align: center;
+    border: solid px black;
+    height: 230px;
+    opacity: 100%;
+    color: black;
+    font-size: 20px;
+    font-family: myriad-pro, sans-serif;
+}
+
+.recuadrogris{
+    
+    width: 600px;
+    height: 450px;
+    background-color: gray;
+    opacity: 80%;
+    margin-left: 0px;
+    display: flex;
+}
+
+.masinformacion{
+    background-color: indigo;
+    width: 400px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 10px #666;
+
+}
+
+.masinformacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: myriad-pro, sans-serif;
+}
+
+/* FIN HEADER  */
+
+/* INICIO SECTION CATEGORIA */
+
+.categoriatxt{
+    border: solid px;
+    text-align: center;
+}
+
+.categoriatxt p{
+        font-size: 40px;
+        font-family: myriad-pro, sans-serif;
+}
+
+
+.secciontxybarra{
+    border: solid px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.barracategoria{
+    border: solid px #d8d6d6;
+    background-color: #d8d6d6;
+    width: 95%;
+}
+
+.seleccioncategoria{
+        border: solid 3px black;
+        width: 200px;
+        margin-left: 65px;
+}
+
+.categoriastitulos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoriastitulos p{
+    font-size: 20px;
+    color: gray;
+}
