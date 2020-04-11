@@ -86,13 +86,16 @@ a{
     height: 40px;
     width: 180px;
     margin-left: -60px;
+    background-color: indigo;
 }
 
 .iniciosesion a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: myriad-pro, sans-serif;
 }
+
+
 
 
 /* FIN BARRA DE NAVEGACION  */
@@ -145,8 +148,8 @@ header{
     
     width: 600px;
     height: 450px;
-    background-color: gray;
-    opacity: 80%;
+    background-color: #d8d6d6;
+    opacity: 70%;
     margin-left: 0px;
     display: flex;
 }
