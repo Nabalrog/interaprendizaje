@@ -493,4 +493,56 @@ header{
     text-decoration: none;
     color: white;
 }
+
+
+
+
 /* FIN FORMULARIO LOGIN */
+
+
+/* INICIO PERFIL VISITADO*/
+
+
+.seccioncursos{
+    border: solid px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    padding-top: 5cm;
+   
+    
+
+}
+
+.seccioncursos2{
+
+    border: solid px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
+    padding-top: 5cm;
+   
+
+
+}
+
+.videos{
+    border: solid px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5cm;
+    
+    
+    
+    padding-top: 5cm;
+   
+    
+
+
+}
+
+/* FIN PERFIL VISITADO*/
