@@ -9,6 +9,10 @@ p{
 a{
     font-family: myriad-pro, sans-serif;
 }
+
+img{
+    max-width: 100%;
+}
 /* INICIO BARRA DE NAVEGACION  */
 
 .navegacion{
@@ -100,6 +104,74 @@ a{
 
 /* FIN BARRA DE NAVEGACION  */
 
+/* INICIO RESPONSIVE BARRA DE NAVEGACION */
+
+
+@media (max-width: 768px){
+    .navegacion,  .lupa, .buscador, .iniciosesion, .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+}
+
+
+@media (max-width: 768px){
+    .lupa, .buscador, .iniciosesion{
+        display:none;
+        
+    }
+}
+
+@media (max-width: 768px){
+    .logo {
+        margin-top: 0px;        
+    }
+}
+
+@media (max-width: 768px){
+    .navegacion {
+       height: 100px;        
+    }
+}
+
+@media (max-width: 768px){
+    .navegacion {
+       display: flex;     
+       justify-content: end;
+       align-items: flex-start;  
+    }
+}
+
+@media (max-width: 768px){
+    .secciones {
+
+        margin-top: -40px;
+        margin-left: 0px;
+        width: 280px; 
+        margin-left: 200px;
+
+    }
+}
+
+@media (max-width: 768px){
+    .logo {
+       margin-left: 40px;
+    }
+}
+
+
+.navegacion:target .secciones:target .lupa:target .buscador:target .iniciosesion:target .logo:target{
+    display: block;
+}
+
+
+
+/* FIN RESPONSIVE BARRA DE NAVEGACION */
+
+
+
 /* INICIO HEADER */
 
 header{
@@ -166,6 +238,7 @@ header{
     box-shadow: 1px 5px 10px #666;
 
 }
+
 
 .masinformacion a{
     color: white;
