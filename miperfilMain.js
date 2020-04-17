@@ -19,20 +19,28 @@ console.log(customCard.classList);
 
 const mostrarDatos = () => {
     customCard.classList.remove("customCard") 
+    customImg1.classList.add("customImg1")
+    customImg2.classList.add("customImg2")
+    customImg3.classList.add("customImg3")  
     titulo.innerHTML = "Mis Datos"
     subTitulo1.innerHTML = "Nombre"
-    text1.innerHTML = "Fulanito de Tal"
+    text1.innerHTML = " Hola Argemiro Panda"
     subTitulo2.innerHTML = "Correo"
-    text2.innerHTML = "example@abc.com"
+    text2.innerHTML = "argempanda@abc.com"
     subTitulo3.innerHTML = "Telefono"
-    text3.innerHTML = "123456789"       
+    text3.innerHTML = "+1123456789"  
+    customImg2.classList.add("customImg2")
+    customImg3.classList.add("customImg3")     
 }
 
 const mostrarPuntaje = () => {
-    customCard.classList.remove("customCard") 
+    customCard.classList.remove("customCard")
+    customImg1.classList.add("customImg1")
+    customImg2.classList.add("customImg2")
+    customImg3.classList.add("customImg3")
     titulo.innerHTML = "Mi Puntaje"
-    subTitulo1.innerHTML = "Hola Fulatino de Tal"
-    text1.innerHTML = "Tu puntaje es 100"  
+    subTitulo1.innerHTML = "Hola Argemiro Panda"
+    text1.innerHTML = "Tu puntaje es: 100"  
     subTitulo2.innerHTML = ""
     text2.innerHTML = ""
     subTitulo3.innerHTML = ""
@@ -40,10 +48,14 @@ const mostrarPuntaje = () => {
 }
 
 const mostrarHistorial = () => {
-    customCard.classList.remove("customCard") 
+    
+    customCard.classList.remove("customCard")
+    customImg1.classList.add("customImg1")
+    customImg2.classList.remove("customImg2")
+    customImg3.classList.add("customImg3")    
     titulo.innerHTML = "Mi Historial"
-    subTitulo1.innerHTML = "Hola Fulatino de Tal"
-    text1.innerHTML = "Esto son tus visitas"  
+    subTitulo1.innerHTML = "Hola Argemiro Panda"
+    text1.innerHTML = "Estas son tus visitas"  
     subTitulo2.innerHTML = ""
     text2.innerHTML = ""
     subTitulo3.innerHTML = ""
@@ -51,10 +63,13 @@ const mostrarHistorial = () => {
 }
 
 const mostrarColaboracion = () => {
-    customCard.classList.remove("customCard") 
+    customCard.classList.remove("customCard")
+    customImg1.classList.add("customImg1")
+    customImg2.classList.add("customImg2")
+    customImg3.classList.remove("customImg3")
     titulo.innerHTML = "Mi Colaboracion"
-    subTitulo1.innerHTML = "Hola Fulatino de Tal"
-    text1.innerHTML = "Esto son tus colaboraciones"  
+    subTitulo1.innerHTML = "Hola Argemiro Panda"
+    text1.innerHTML = "Estas son tus colaboraciones"  
     subTitulo2.innerHTML = ""
     text2.innerHTML = ""
     subTitulo3.innerHTML = ""
